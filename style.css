@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(44, 117, 117);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(12, 12, 12);
+  font-size: 32px;
+  line-height: 1.8;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(30, 110, 90);
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+a {
+  color: rgba(121, 32, 114, 0.8);
+  text-decoration: none;
+}
+a:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;                        /* White background */
+}
+
+.card {
+  background: white;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  text-align: center;                        /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-pink {
+  background-color: deeppink;
+  color: antiquewhite;
+  border-radius: 4px;
+  padding: 15px 20px;
+    padding-top: 7px;
+    padding-right: 20px;
+    padding-bottom: 7px;
+    padding-left: 20px;}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  margin: -13px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 48px;
+  margin: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  h1 {
+    font-size: 15px;
+  }
+}
